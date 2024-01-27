@@ -1,0 +1,260 @@
+html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOUSE OF PETALS</title>
+
+    <!--GOOGLE FONT (Georgia)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+     <!--GOOGLE FONT (Garamond)-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Noto+Serif+Georgian:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+
+     <!--CSS LINK-->
+     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" type="text/css" href="css/lightslider.css"> 
+     <!--JQUERY LINK-->
+     <script type="text/javascript" src="js/jquery.js"></script>
+     <script type="text/javascript" src="js/lightslider.js"></script>
+     <!--ICON LINK-->
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  </head>
+  <body>
+    <header>
+      <a href="home.html"><img src="images/LOGO.png" class="logo"></a>
+
+      <ul class="navbar">
+        <li><a href="home.html" class="active">Home</a></li>
+        <li><a href="#productCatalog">Product Catalog</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+
+      <div class="icons">
+        <a href="#" class="ri-shopping-cart-2-line"></a>
+          <div class="navbtn">
+           <!-- <a href="register.html" ><button class="btn">Sign In</button></a>
+           <b class="btn">|</b>
+           <a href="login.html"><button class="btnl">Log In</button></a>
+           <div class="user-icon"> -->
+            <a href="register.html" class="ri-user-line"></a>
+          </div>
+        </div>
+      </div>
+   
+    </header>
+<!--=================================== END OF NAVBAR ===================================-->
+
+    <section class="home" id="home">
+      <div class="content">
+          <h3>House of Petals</h3>
+          <span>Home of Elegant Floral Design <br /></span>
+          <span>natural & beautiful flowers</span>
+      </div>
+    </section>
+
+    <div class="bestseller">
+      <h1>&#8212; Top-Picks &#8212;</h1>
+      <ul id="autoWidth" class="cs-hidden">
+        <li class="item-a">
+          <div class="box">
+            <div class="slide-img">
+              <img src="images/img-7.jpg">
+              <div class="overlay">
+                <a href="#" class="cart-btn">Add to Cart</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <a href="#"><h3>Aura</h3></a>
+              <h3>&#8369; 3500.00</h3>
+            </div>
+          </div>
+        </li>
+
+        <li class="item-b">
+          <div class="box">
+            <div class="slide-img">
+              <img src="images/img-28.jpg">
+              <div class="overlay">
+                <a href="#" class="cart-btn">Add to Cart</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <a href="#"><h3>Aura</h3></a>
+              <h3>&#8369; 3500.00</h3>
+            </div>
+          </div>
+        </li>
+
+        <li class="item-c">
+          <div class="box">
+            <div class="slide-img">
+              <img src="images/img-24.jpg">
+              <div class="overlay">
+                <a href="#" class="cart-btn">Add to Cart</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <a href="#"><h3>Aura</h3></a>
+              <h3>&#8369; 3500.00</h3>
+            </div>
+          </div>
+        </li>
+
+        <li class="item-d">
+          <div class="box">
+            <div class="slide-img">
+              <img src="images/img-15.jpg">
+              <div class="overlay">
+                <a href="#" class="cart-btn">Add to Cart</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <a href="#"><h3>Aura</h3></a>
+              <h3>&#8369; 3500.00</h3>
+            </div>
+          </div>
+        </li>
+
+        <li class="item-e">
+          <div class="box">
+            <div class="slide-img">
+              <img src="images/img-26.jpg">
+              <div class="overlay">
+                <a href="#" class="cart-btn">Add to Cart</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <a href="#"><h3>Aura</h3></a>
+              <h3>&#8369; 3500.00</h3>
+            </div>
+          </div>
+        </li>
+
+        <li class="item-f">
+          <div class="box">
+            <div class="slide-img">
+              <img src="images/img-23.jpg">
+              <div class="overlay">
+                <a href="#" class="cart-btn">Add to Cart</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <a href="#"><h3>Aura</h3></a>
+              <h3>&#8369; 3500.00</h3>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+    
+    
+
+    </div>
+   <!--JS LINK-->
+   <script type="text/javascript" src="js/script.js"></script>
+    
+  </body>
+</html>
+
+
+
+
+
+
+
+css
+.bestseller h1{
+  margin: 5rem;
+  text-align: center;
+  font-size: 4rem;
+  color: var(--text-color3);
+}
+.box{
+  width: 300px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-color: var(--main-color);
+}
+.slide-img{
+  height: 250px;
+  position: relative;
+}
+.slide-img img{
+  width: 220px;
+  height: auto;
+  object-fit: cover;
+  box-sizing: border-box;
+  margin-top: 2rem;
+}
+.detail-box{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background:#FFFFFF;
+}
+.detail-box h3{
+  font-size: 15px;
+  color: #601A35;
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(221, 192, 180, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-btn{
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+  font-size: 2rem;
+  color: #601A35;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px(0,0,0,0.2);
+}
+.cart-btn:hover{
+  color: #FFFFFF;
+  background: #601A35;
+  transition: all ease .3s;
+}
+.overlay{
+  visibility: hidden;
+}
+.slide-img:hover .overlay{
+  visibility: visible;
+  animation:fade 0.3s;
+}
+@keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+

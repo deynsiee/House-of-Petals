@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+
+    <!--GOOGLE FONT (Georgia)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+     <!--GOOGLE FONT (Garamond)-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Noto+Serif+Georgian:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+
+     <!--CSS LINK-->
+ 
+     <link rel="stylesheet" href="./css/login.css">
+
+     <!--ICON LINK-->
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  </head>
+  <body>
+     
+    <header>
+      <a href="home.html"><img src="images/LOGO.png" class="logo"></a>
+
+      <ul class="navbar">
+        <li><a href="home.html" class="active">Home</a></li>
+        <li><a href="#productCatalog">Product Catalog</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+
+      <div class="icons">
+        <a href="#" class="ri-shopping-cart-2-line"></a>
+        <a href="register.html" class="ri-user-line"></a>
+      </div>
+      </div>
+   
+    </header>
+<!--=================================== END OF NAVBAR ===================================-->
+    <div class="form" id="register">
+      <h1 class="heading1">Sign Up</h1>
+      <h2 class="tag">Name:</h2>
+      <input type="text" placeholder="Username" autocomplete="off" class="name" required>
+      <h2 class="tag">Phone Number:</h2>
+      <input type="text" placeholder="Number" autocomplete="off" class="number" required>
+      <h2 class="tag">Password:</h2>
+      <input type="password" placeholder="password" autocomplete="off" class="password" required>
+      <h2 class="tag">Confirm Password:</h2>
+      <input type="password" placeholder="password" autocomplete="off" class="password" required>
+      
+      <button class="submit-btn">Sign Up</button>
+      <div class="lah">
+        <p>Already have an account? <a href="login.html" class="register-link">Log In</a></p> 
+      </div>
+    </div> 
+  <!--JS LINK-->
+   <script type="text/javascript" src="js/script.js"></script>
+  </body>
+  </html>
+  
